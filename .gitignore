@@ -1,0 +1,53 @@
+# Ignore compiled object files and executables
+*.o
+*.obj
+*.exe
+*.out
+*.a
+*.so
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+
+# Ignore IDE/editor specific files and directories
+.vscode/
+.idea/
+*.suo
+*.user
+*.nib
+*.goutputstream-*
+
+# Ignore build and intermediate directories
+/build
+/bin
+/obj
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore backup files
+*~
+*.bak
+
+# Ignore Python bytecode files (if using Python for some solutions)
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore Java bytecode files (if using Java for some solutions)
+*.class
+
+# Ignore Node.js modules (if using JavaScript/Node.js)
+node_modules/
+
+# Ignore any virtual environments
+venv/
+env/
+
+# Ignore CMake build files but include CMakeLists.txt
+CMakeFiles/
+CMakeCache.txt
+Makefile
